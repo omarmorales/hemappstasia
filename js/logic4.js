@@ -17,12 +17,13 @@ var coincide;
 var tiempoinicio;
 var contador = 0;
 var pares = [
-  ["images/exp-fasefluida-coag.png","images/fasefluida-coag.png"],
-  ["images/exp-fibrinogeno.png","images/img-fibrinogeno.png"],
-  ["images/exp-fibrina.png","images/img-fibrina.png"],
-  ["images/exp-extrinseca.png","images/img-extrinseca.png"],    
+  ["images/exp-plasminogeno.png","images/img-plasminogeno.png"],
+  ["images/exp-plasmina.png","images/img-plasmina.png"],
+  ["images/exp-destruccionfibrinogeno.png","images/img-destruccionfibrinogeno.png"],
+  ["images/exp-activadoresplasminogenos.png","images/img-activadoresplasminogenos.png"],    
   ["images/exp-intrinseca.png","images/img-intrinseca.png"],
-  ["images/exp-trombina.png","images/img-trombina.png"]  
+  ["images/exp-aTP.png","images/img-aTP.png"],
+  ["images/exp-UC.png","images/img-UC.png"]
 ];
 
 //baraja guarda info en las cartas: la localización y dimensiones, el src para la foto

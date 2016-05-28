@@ -17,12 +17,13 @@ var coincide;
 var tiempoinicio;
 var contador = 0;
 var pares = [
-  ["images/exp-componentes-siscoagulacion.png","images/img-componentes-siscoagulacion.png"],
-  ["images/exp-ext-vasocronstriccion.png","images/img-ext-vasocronstriccion.png"],
-  ["images/exp-endotelio.png","images/img-endotelio.png"],
-  ["images/exp-globulos.png","images/img-globulos.png"],    
-  ["images/exp-plaquetas.png","images/img-plaquetas.png"],
-  ["images/exp-adhesionplaquetaria.png","images/img-adhesionplaquetaria.png"]  
+  ["images/exp-plasminogeno.png","images/img-plasminogeno.png"],
+  ["images/exp-plasmina.png","images/img-plasmina.png"],
+  ["images/exp-destruccionfibrinogeno.png","images/img-destruccionfibrinogeno.png"],
+  ["images/exp-activadoresplasminogenos.png","images/img-activadoresplasminogenos.png"],    
+  ["images/exp-intrinseca.png","images/img-intrinseca.png"],
+  ["images/exp-aTP.png","images/img-aTP.png"],
+  ["images/exp-UC.png","images/img-UC.png"]
 ];
 
 //baraja guarda info en las cartas: la localización y dimensiones, el src para la foto
@@ -169,7 +170,7 @@ function flipback() {
   }
 }
 
-function init3(){
+function init5(){
    ctx = document.getElementById('canvas').getContext('2d'); 
    canvas1 = document.getElementById('canvas');
    canvas1.addEventListener('click',elegir,false);
