@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">     
 </head>
-<body>
+<body onLoad="init();">
   <!-- navbar for Hemappstasia-->
   <nav>
     <div class="nav-wrapper">
@@ -60,7 +60,10 @@
   <!-- end of navbar -->
   <div class="container">
     <div class="row">
-      <h1>hola mundo</h1>
+      <canvas id="canvas" width="1200" height="700">
+      Tu navegador no soporta el elemento canvas de HTML5.
+      </canvas>  
+      <br/>
     </div>
   </div>
 <!--Import jQuery before materialize.js-->
